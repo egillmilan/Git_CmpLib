@@ -142,7 +142,7 @@
 		(uuid "b1bde898-760f-48eb-b3a6-202093ca1e31")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/6125TD1-R.step"
+	(model "${KIPRJMOD}/Libraries/3D_models/6125TD1-R.step"
 		(offset
 			(xyz -3.05 -1.35 0)
 		)

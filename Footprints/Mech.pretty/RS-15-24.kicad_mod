@@ -225,7 +225,7 @@
 		(uuid "f5535284-1ae4-40e4-b3a0-c03c3669b7f6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/RS-15-24.stp"
+	(model "${KIPRJMOD}/Libraries/3D_models/RS-15-24.stp"
 		(offset
 			(xyz -25.76 -8.75 0)
 		)

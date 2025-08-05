@@ -280,7 +280,7 @@
 		(uuid "aeb8af32-040e-4c46-a9d8-0d943af013c3")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/ss-10gl13-3d_with_arm_attachment.step"
+	(model "${KIPRJMOD}/Libraries/3D_models/ss-10gl13-3d_with_arm_attachment.step"
 		(offset
 			(xyz 8.3 0 0)
 		)

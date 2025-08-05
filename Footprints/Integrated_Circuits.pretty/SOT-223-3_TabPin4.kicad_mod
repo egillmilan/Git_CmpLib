@@ -229,7 +229,7 @@
 		(uuid "118e82e2-9099-4e46-a269-1e2cb8448d5e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/SOT-223.step"
+	(model "${KIPRJMOD}/Libraries/3D_models/SOT-223.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -547,7 +547,7 @@
 		(uuid "03757253-9185-4daa-a812-c6645ab3a803")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/2604-1104.stp"
+	(model "${KIPRJMOD}/Libraries/3D_models/2604-1104.stp"
 		(offset
 			(xyz 17.3 -8.2 0)
 		)
