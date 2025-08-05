@@ -1,7 +1,7 @@
 (footprint "Potentiometer_Bourns_PTA2043_Single_Slide"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Bourns single-gang slide potentiometer, 20.0mm travel, https://www.bourns.com/docs/Product-Datasheets/pta.pdf")
 	(tags "Bourns single-gang slide potentiometer 20.0mm")
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2a9fd711-9616-43f9-bd42-33b4cb81e06d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Resistors:Potentiometer_Bourns_PTA2043_Single_Slide"
-		(at 17 12 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "71ebc788-1ea4-490a-82d6-945a72536644")
 		(effects
 			(font
 				(size 1 1)
@@ -345,7 +332,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "601d5211-c90b-42c4-a13e-67490096d911")
 	)
@@ -356,21 +343,9 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "55ab1f0c-6e2a-47bb-804a-a92305778fe7")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 16.5 8 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ba1e9073-f136-4f5c-998f-e3f005588f51")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
@@ -428,7 +403,8 @@
 		(remove_unused_layers no)
 		(uuid "94cb19d1-d75d-44fd-9246-5ab0dddae7ee")
 	)
-	(model "C:/Users/Egill/Documents/KiCad/Libraries/Custom_libraries/3D_models/PTA2043-2015DPB103.step"
+	(embedded_fonts no)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/PTA2043-2015DPB103.step"
 		(offset
 			(xyz 6.5 -1.8 5.5)
 		)

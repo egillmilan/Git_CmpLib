@@ -1,7 +1,7 @@
 (footprint "RS-15-24"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mean Well 24 V PSU, 15 W")
 	(property "Reference" "REF**"
@@ -22,19 +22,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3d5c8638-c64f-410f-9183-96258cdaa930")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Mech:RS-15-24"
-		(at 0 -24 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "833494f1-4827-4171-8c6c-cde6c59de2f5")
 		(effects
 			(font
 				(size 1 1)
@@ -115,7 +102,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ee5a159c-aee4-436f-811a-a8eefb5e9dd7")
 	)
@@ -126,7 +113,7 @@
 			(width 0.12)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "449dcc77-43c6-4157-8cbc-3f63bfc109b1")
 	)
@@ -137,7 +124,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Margin")
 		(uuid "d028abd9-921e-4ed1-92dc-31a6e6eb114a")
 	)
@@ -148,7 +135,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "696fbfd5-3dae-4228-9d60-794719efbccb")
 	)
@@ -159,7 +146,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "35b6d261-497c-4955-9fa1-c3c5526a0050")
 	)
@@ -223,19 +210,6 @@
 			)
 		)
 	)
-	(fp_text user "${REFERENCE}"
-		(at 0 -18 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "683766c6-b03c-4828-838c-d7cabb00340f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(pad "" np_thru_hole circle
 		(at 0 -39.1 180)
 		(size 3.2 3.2)
@@ -250,7 +224,8 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "f5535284-1ae4-40e4-b3a0-c03c3669b7f6")
 	)
-	(model "C:/Users/Egill/Documents/KiCad/Libraries/Custom_libraries/3D_models/RS-15-24.stp"
+	(embedded_fonts no)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/RS-15-24.stp"
 		(offset
 			(xyz -25.76 -8.75 0)
 		)

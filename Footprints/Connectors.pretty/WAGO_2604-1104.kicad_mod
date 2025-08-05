@@ -1,7 +1,7 @@
 (footprint "WAGO_2604-1104"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 8 2.5 0)
@@ -19,18 +19,6 @@
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "f7b0f15c-7a22-49d3-9168-c267d0e7417b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Connectors:WAGO_2604-1104"
-		(at 7.5 -2 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "020ee4c7-f7ad-4d2a-ab9e-1a93c8aaa668")
 		(effects
 			(font
 				(size 1 1)
@@ -260,7 +248,7 @@
 			(width 0)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "a155099b-dee9-4140-9189-eb0ce6c4d3dc")
 	)
@@ -558,7 +546,8 @@
 		(remove_unused_layers no)
 		(uuid "03757253-9185-4daa-a812-c6645ab3a803")
 	)
-	(model "C:/Users/Egill/Documents/KiCad/Libraries/Custom_libraries/3D_models/2604-1104.stp"
+	(embedded_fonts no)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/2604-1104.stp"
 		(offset
 			(xyz 17.3 -8.2 0)
 		)

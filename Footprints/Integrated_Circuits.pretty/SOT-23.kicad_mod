@@ -198,7 +198,7 @@
 		(uuid "96ac6cfe-88bd-4385-abd9-efbf413b54bd")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Egill/Documents/KiCad/Libraries/Custom_libraries/3D_models/SOT-23.step"
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/SOT-23.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,7 +1,7 @@
 (footprint "CP_Radial_D5.0mm_P2.00mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 	(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
@@ -21,19 +21,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "c8dd03bd-811a-40e8-ad4d-d1c3823ec875")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "109d49ae-cef3-4fda-8e07-d2d2f904f2d4")
 		(effects
 			(font
 				(size 1 1)
@@ -1265,7 +1252,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "78e0d6ec-8109-4f63-808e-802e545fdfd3")
 	)
@@ -1276,7 +1263,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ca92927f-1ef0-4778-9cbc-56e48389e1f4")
 	)
@@ -1307,7 +1294,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2c24dc2c-48e4-4daf-8559-abde9ecbc78f")
 	)
@@ -1327,7 +1314,8 @@
 		(remove_unused_layers no)
 		(uuid "303a0368-898e-4b6e-b3a4-60770559d2d4")
 	)
-	(model "C:/Users/Egill/Documents/KiCad/Libraries/Custom_libraries/3D_models/C_Radial_D5.0mm_H11.0mm_P2.00mm.step"
+	(embedded_fonts no)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/C_Radial_D5.0mm_H11.0mm_P2.00mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

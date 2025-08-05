@@ -170,7 +170,7 @@
 		(uuid "1e36b295-7e96-456f-a51a-a71b62e7b4c1")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/Egill/Documents/KiCad/Libraries/Custom_libraries/3D_models/C_0805_2012Metric.step"
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/C_0805_2012Metric.step"
 		(offset
 			(xyz 0 0 0)
 		)
