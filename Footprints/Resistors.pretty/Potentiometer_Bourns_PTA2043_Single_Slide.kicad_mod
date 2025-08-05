@@ -404,7 +404,7 @@
 		(uuid "94cb19d1-d75d-44fd-9246-5ab0dddae7ee")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/3D_models/PTA2043-2015DPB103.step"
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/PTA2043-2015DPB103.step"
 		(offset
 			(xyz 6.5 -1.8 5.5)
 		)

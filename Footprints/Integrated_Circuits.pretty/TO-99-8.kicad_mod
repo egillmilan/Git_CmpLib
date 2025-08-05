@@ -251,7 +251,7 @@
 		(uuid "9b79dabd-fa04-4165-887b-fceb53a41fec")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Libraries/3D_models/TO99-8.step"
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/TO99-8.step"
 		(offset
 			(xyz 3 0 0)
 		)
