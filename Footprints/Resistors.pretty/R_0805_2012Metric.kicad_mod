@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.65 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
 		(uuid "effead60-2b17-4463-91cf-34792a2b459a")
 		(effects
@@ -74,45 +74,16 @@
 		(layer "F.SilkS")
 		(uuid "9aaa9150-dbb8-4657-a223-476b55b89dae")
 	)
-	(fp_line
-		(start -1.68 -0.95)
-		(end 1.68 -0.95)
+	(fp_rect
+		(start -1.5 -0.8)
+		(end 1.5 0.8)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "245c0818-3ccc-4969-b35b-0d4f8723400e")
-	)
-	(fp_line
-		(start -1.68 0.95)
-		(end -1.68 -0.95)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "c9825373-da58-4067-816d-465cdf887dc6")
-	)
-	(fp_line
-		(start 1.68 -0.95)
-		(end 1.68 0.95)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "5b983e02-1ada-4414-ad21-290f1424bf3d")
-	)
-	(fp_line
-		(start 1.68 0.95)
-		(end -1.68 0.95)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f3d9ee21-ffbd-4620-abbf-7bc99e9f4420")
+		(uuid "e838d90f-6201-45fc-b1b5-116940216c7e")
 	)
 	(fp_line
 		(start -1 -0.625)

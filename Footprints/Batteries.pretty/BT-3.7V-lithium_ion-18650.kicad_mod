@@ -1,0 +1,155 @@
+(footprint "BT-3.7V-lithium_ion-18650"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c42997ee-6807-4d1e-abb4-c1b248bc4521")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "18650_cell"
+		(at 0 -27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0bda2e4-7f60-4c97-9ddb-3cf54aed51f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8906944b-261f-4f64-a795-8bd64c7c9922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90b85ad4-ef18-4114-942f-11bbf940640d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_rect
+		(start -11.2 -34.6)
+		(end 11.2 34.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13ec8465-2101-4dfe-a18f-44d1260d5e32")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "d8ce7d1b-eb69-4dfb-a51d-0127bde68f00")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "7ac0dabe-6077-4554-8fe5-4ef630422ad3")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "58e7c77d-45de-45a0-8b87-dfd56d468501")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "5d0241de-e48b-4ab6-aee8-c38e079c3ec6")
+	)
+	(fp_rect
+		(start -10.9 -34.3)
+		(end 10.9 34.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "6ecf8392-c292-4c3f-8fc2-b1d4809df606")
+	)
+	(fp_text user "+"
+		(at 0 -10.965 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e981f93-4406-45e8-87e8-79f301e5fa8d")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1)
+			)
+		)
+	)
+	(fp_text user "-"
+		(at 0 10.16 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7cda9f27-9a97-4a88-bb65-fcfcfe86cc1e")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 1)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/18650_cell.step"
+		(opacity 0.4700)
+		(offset
+			(xyz 0 -31.85 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
