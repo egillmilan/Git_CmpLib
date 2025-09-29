@@ -14,7 +14,7 @@
 		(in_bom no)
 		(on_board yes)
 		(property "Reference" "JP"
-			(at 0 2.032 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,8 +609,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -880,8 +880,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -5.08 90)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -1129,8 +1129,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font

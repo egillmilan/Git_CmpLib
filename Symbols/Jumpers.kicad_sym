@@ -609,8 +609,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -880,8 +880,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -1129,8 +1129,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.54)
+				(at 0 -2.54 90)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
