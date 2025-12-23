@@ -1,10 +1,10 @@
-(footprint "SW_Cherry_MX_R1_1.00u_PCB"
+(footprint "SW_Cherry_MX_ISO_Enter_PCB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX keyswitch, Row 1, 1.00u, PCB mount")
-	(tags "Cherry MX keyswitch 1.00u PCB")
+	(descr "Cherry MX keyswitch, ISO Enter, PCB mount")
+	(tags "Cherry MX keyswitch ISO Enter PCB")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_Cherry_MX_R1_1.00u_PCB"
+	(property "Value" "SW_Cherry_MX_ISO_Enter_PCB"
 		(at -2.54 12.954 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -77,16 +77,79 @@
 		(layer "F.CrtYd")
 		(uuid "da356d48-1b89-4f5d-ae40-ce275a3f7851")
 	)
-	(fp_rect
-		(start -9.5 -9.5)
-		(end 9.5 9.5)
+	(fp_line
+		(start -16.625 -19)
+		(end -16.625 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "858627d4-a541-4899-a308-cafdf6d7c58e")
+	)
+	(fp_line
+		(start -16.625 0)
+		(end -11.875 0)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill no)
 		(layer "User.1")
-		(uuid "69fa7dee-f1f0-4537-920d-2366d180cf1d")
+		(uuid "c0baf9e8-7759-4c19-a25c-4602b46100fe")
+	)
+	(fp_line
+		(start -11.875 0)
+		(end -11.875 19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "55294ce9-14df-4be4-a6df-2afe53295416")
+	)
+	(fp_line
+		(start -11.875 19)
+		(end 11.875 19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "d35ebd67-3342-4fd6-8ce9-73958829e331")
+	)
+	(fp_line
+		(start 11.875 -19)
+		(end -16.625 -19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "0aee2aad-ad3c-439c-a88b-cdf66d7a69ed")
+	)
+	(fp_line
+		(start 11.875 19)
+		(end 11.875 -19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "985621e3-2131-4e38-80cd-ec5f39c9b6f7")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.985 -11.938 90)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9f67565f-72b7-4245-b81c-9c1e1f0ea3b2")
+	)
+	(pad "" np_thru_hole circle
+		(at -6.985 11.938 90)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b8d7e243-f83a-4a78-b2ec-1d6ee95772b2")
 	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
@@ -100,7 +163,7 @@
 		(size 4 4)
 		(drill 4)
 		(layers "*.Cu" "*.Mask")
-		(uuid "73765e79-092c-47ba-8638-124dd80e461f")
+		(uuid "d35a926d-3b7d-41a8-b24c-cdaf73c2ed2d")
 	)
 	(pad "" np_thru_hole circle
 		(at 5.08 0)
@@ -108,6 +171,20 @@
 		(drill 1.7)
 		(layers "*.Cu" "*.Mask")
 		(uuid "c335d4df-5e73-4f97-a7a9-cdd4823bfe9d")
+	)
+	(pad "" np_thru_hole circle
+		(at 8.255 -11.938 90)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f3c85cea-a53c-45ac-953b-e2de15eb4c88")
+	)
+	(pad "" np_thru_hole circle
+		(at 8.255 11.938 90)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2792a2aa-b125-45b3-8f62-929a334d6271")
 	)
 	(pad "1" thru_hole circle
 		(at 2.54 -5.08)
@@ -159,7 +236,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/CherryMX_R1_1.00u.step"
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/CherryMX_ISO_Enter.step"
 		(offset
 			(xyz 0 0 10.554)
 		)
@@ -168,6 +245,17 @@
 		)
 		(rotate
 			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/Stabilizer_Cherry_MX_2.00u.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
 		)
 	)
 )

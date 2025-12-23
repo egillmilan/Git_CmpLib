@@ -1,0 +1,212 @@
+(footprint "SW_Cherry_MX_Convex_2.00u_PCB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Cherry MX keyswitch, Convex, 2.00u, PCB mount")
+	(tags "Cherry MX keyswitch 2.00u PCB")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "c03327f2-012e-4fbf-80a8-a7d4b49f6df2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Cherry_MX_Convex_2.00u_PCB"
+		(at -2.54 12.954 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "729da0de-a38f-4970-a9aa-b4dc70f92f16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0037b9f5-583a-41f5-9b90-1b725631a7a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "482871a4-3f1f-46ca-bcff-19c31bbdd9f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.985 -6.985)
+		(end 6.985 6.985)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "72b10f76-621c-462a-85a3-527e9f2d86f7")
+	)
+	(fp_rect
+		(start -6.6 -6.6)
+		(end 6.6 6.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "da356d48-1b89-4f5d-ae40-ce275a3f7851")
+	)
+	(fp_rect
+		(start -19 -9.5)
+		(end 19 9.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "69fa7dee-f1f0-4537-920d-2366d180cf1d")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b8d7e243-f83a-4a78-b2ec-1d6ee95772b2")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.938 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2792a2aa-b125-45b3-8f62-929a334d6271")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b86d769f-f008-4ebc-81df-18e41ab52916")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 4 4)
+		(drill 4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "73765e79-092c-47ba-8638-124dd80e461f")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 1.7 1.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c335d4df-5e73-4f97-a7a9-cdd4823bfe9d")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 -6.985)
+		(size 3.048 3.048)
+		(drill 3.048)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9f67565f-72b7-4245-b81c-9c1e1f0ea3b2")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.938 8.255)
+		(size 3.9878 3.9878)
+		(drill 3.9878)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f3c85cea-a53c-45ac-953b-e2de15eb4c88")
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 -5.08)
+		(size 2.4 2.4)
+		(drill 1.575)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95f28955-d4ce-4605-8aac-5b414b25ef4e")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 -2.54)
+		(size 2.4 2.4)
+		(drill 1.575)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d507696-ddb2-4a94-b63a-54a69e85b238")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/mill-max-3305-0-15-80-47-XX-10-0.step"
+		(offset
+			(xyz -3.81 2.54 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/mill-max-3305-0-15-80-47-XX-10-0.step"
+		(offset
+			(xyz 2.54 5.08 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -90 -0)
+		)
+	)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/MX1A-E1NW.step"
+		(offset
+			(xyz 0 0 0.25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/CherryMX_Convex_2u.step"
+		(offset
+			(xyz 0 0 10.554)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/Stabilizer_Cherry_MX_2.00u.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

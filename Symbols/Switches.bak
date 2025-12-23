@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "SW-Keyboard-1u-Hot_swap_capable-CherryMX_style"
+	(symbol "SW-Keyboard-1u-Hot_swap_capable-CherryMX"
 		(pin_numbers
 			(hide yes)
 		)
@@ -84,7 +84,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SW-Keyboard-1u-Hot_swap_capable-CherryMX_style_0_1"
+		(symbol "SW-Keyboard-1u-Hot_swap_capable-CherryMX_0_1"
 			(circle
 				(center -1.27 0)
 				(radius 0.381)

@@ -1,9 +1,9 @@
-(footprint "SW_Cherry_MX_R1_1.00u_PCB_1"
+(footprint "SW_Cherry_MX_R2_1.00u_PCB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Cherry MX keyswitch, Row 1, 1.00u, PCB mount")
+	(descr "Cherry MX keyswitch, Row 2, 1.00u, PCB mount")
 	(tags "Cherry MX keyswitch 1.00u PCB")
 	(property "Reference" "REF**"
 		(at 0 -3 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_Cherry_MX_R1_1.00u_PCB_1"
+	(property "Value" "SW_Cherry_MX_R2_1.00u_PCB"
 		(at -2.54 12.954 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -159,7 +159,7 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/CherryMX_R1_1.00u.step"
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/CherryMX_R2_1u.step"
 		(offset
 			(xyz 0 0 10.554)
 		)
