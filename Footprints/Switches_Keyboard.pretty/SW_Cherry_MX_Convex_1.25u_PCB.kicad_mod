@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "c03327f2-012e-4fbf-80a8-a7d4b49f6df2")
 		(effects
 			(font
@@ -16,10 +17,9 @@
 			)
 		)
 	)
-	(property "Value" "SW_Cherry_MX_Convex_1.25u_PCB"
-		(at -2.54 12.954 0)
-		(layer "F.Fab")
-		(hide yes)
+	(property "Value" "VAL**"
+		(at 0 5 0)
+		(layer "F.SilkS")
 		(uuid "729da0de-a38f-4970-a9aa-b4dc70f92f16")
 		(effects
 			(font

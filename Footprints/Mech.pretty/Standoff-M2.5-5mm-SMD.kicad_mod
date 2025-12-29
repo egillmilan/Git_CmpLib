@@ -1,0 +1,180 @@
+(footprint "Standoff-M2.5-5mm-SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f041cd02-08db-4674-8bc5-d989cfbc743b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Standoff-M2.5-5mm-SMD"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "146200a6-36d2-47e4-84bd-b7ece935843d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b6ebdd2-0c69-4c93-96ed-0c933c2b7a0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fd31165-892f-4a3a-81d8-c0936df9a1a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8d320b6e-4478-4702-9444-6825a727bbbb")
+	)
+	(fp_poly
+		(pts
+			(xy -1.867491 0.371467) (xy -1.803028 0.612045) (xy -1.707715 0.842152) (xy -1.583182 1.057849) (xy -1.431561 1.255445)
+			(xy -1.255445 1.431561) (xy -1.057849 1.583182) (xy -0.842152 1.707715) (xy -0.612045 1.803028) (xy -0.371467 1.867491)
+			(xy -0.325 1.873608) (xy -0.325 2.897234) (xy -0.489118 2.878743) (xy -0.80836 2.805879) (xy -1.117436 2.697728)
+			(xy -1.412459 2.555652) (xy -1.68972 2.381438) (xy -1.945732 2.177275) (xy -2.177275 1.945732) (xy -2.381438 1.68972)
+			(xy -2.555652 1.412459) (xy -2.697728 1.117436) (xy -2.805879 0.80836) (xy -2.878743 0.489118) (xy -2.897235 0.325)
+			(xy -1.873608 0.325)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "95b6a984-e48e-41f6-83e4-a5a4c016c7e3")
+	)
+	(fp_poly
+		(pts
+			(xy -0.325 -1.873608) (xy -0.371467 -1.867491) (xy -0.612045 -1.803028) (xy -0.842152 -1.707715)
+			(xy -1.057849 -1.583182) (xy -1.255445 -1.431561) (xy -1.431561 -1.255445) (xy -1.583182 -1.057849)
+			(xy -1.707715 -0.842152) (xy -1.803028 -0.612045) (xy -1.867491 -0.371467) (xy -1.873608 -0.325)
+			(xy -2.897235 -0.325) (xy -2.878743 -0.489118) (xy -2.805879 -0.80836) (xy -2.697728 -1.117436) (xy -2.555652 -1.412459)
+			(xy -2.381438 -1.68972) (xy -2.177275 -1.945732) (xy -1.945732 -2.177275) (xy -1.68972 -2.381438)
+			(xy -1.412459 -2.555652) (xy -1.117436 -2.697728) (xy -0.80836 -2.805879) (xy -0.489118 -2.878743)
+			(xy -0.325 -2.897234)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "14af6c01-90df-4d9c-bf8a-2c93b0d3624d")
+	)
+	(fp_poly
+		(pts
+			(xy 0.489118 -2.878743) (xy 0.80836 -2.805879) (xy 1.117436 -2.697728) (xy 1.412459 -2.555652) (xy 1.68972 -2.381438)
+			(xy 1.945732 -2.177275) (xy 2.177275 -1.945732) (xy 2.381438 -1.68972) (xy 2.555652 -1.412459) (xy 2.697728 -1.117436)
+			(xy 2.805879 -0.80836) (xy 2.878743 -0.489118) (xy 2.897235 -0.325) (xy 1.873608 -0.325) (xy 1.867491 -0.371467)
+			(xy 1.803028 -0.612045) (xy 1.707715 -0.842152) (xy 1.583182 -1.057849) (xy 1.431561 -1.255445) (xy 1.255445 -1.431561)
+			(xy 1.057849 -1.583182) (xy 0.842152 -1.707715) (xy 0.612045 -1.803028) (xy 0.371467 -1.867491) (xy 0.325 -1.873608)
+			(xy 0.325 -2.897234)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "28e8ec76-4de0-4a23-9688-43188604fd82")
+	)
+	(fp_poly
+		(pts
+			(xy 2.878743 0.489118) (xy 2.805879 0.80836) (xy 2.697728 1.117436) (xy 2.555652 1.412459) (xy 2.381438 1.68972)
+			(xy 2.177275 1.945732) (xy 1.945732 2.177275) (xy 1.68972 2.381438) (xy 1.412459 2.555652) (xy 1.117436 2.697728)
+			(xy 0.80836 2.805879) (xy 0.489118 2.878743) (xy 0.325 2.897234) (xy 0.325 1.873608) (xy 0.371467 1.867491)
+			(xy 0.612045 1.803028) (xy 0.842152 1.707715) (xy 1.057849 1.583182) (xy 1.255445 1.431561) (xy 1.431561 1.255445)
+			(xy 1.583182 1.057849) (xy 1.707715 0.842152) (xy 1.803028 0.612045) (xy 1.867491 0.371467) (xy 1.873608 0.325)
+			(xy 2.897235 0.325)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "7f495d5b-1e32-4b47-a56e-97a4df389d07")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.18 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3912b2b1-6c27-44b2-9b92-d6f4bb9aaf02")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.55 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9af0c349-5bc5-4011-9f9c-a20482cc8ebb")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 6 6)
+		(drill 3.7)
+		(layers "F.Cu" "F.Mask")
+		(uuid "3967895f-5502-442f-835f-49c3db8736a3")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/9774050151R_20_28rev1_29.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
