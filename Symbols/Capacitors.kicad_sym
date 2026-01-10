@@ -672,15 +672,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "C0805-100n-10%-25V-MLCC-SMD_0_1"
 			(polyline
 				(pts
@@ -813,15 +804,6 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -970,15 +952,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "C0805-10u-10%-10V-MLCC-SMD_0_1"
 			(polyline
 				(pts
@@ -1111,15 +1084,6 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1268,15 +1232,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "C0805-1u-10%-10V-MLCC-SMD_0_1"
 			(polyline
 				(pts
@@ -1409,15 +1364,6 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1566,15 +1512,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "C0805-22u-20%-35V-MLCC-SMD_0_1"
 			(polyline
 				(pts
@@ -1707,15 +1644,6 @@
 			)
 		)
 		(property "ki_keywords" "capacitor cap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "C_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1864,15 +1792,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "C0805-4u7-10%-25V-MLCC-SMD_0_1"
 			(polyline
 				(pts
@@ -2013,15 +1932,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "C_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "C1206-1u-10%-100V-MLCC-SMD_0_1"
 			(polyline
 				(pts
@@ -2154,15 +2064,6 @@
 			)
 		)
 		(property "ki_keywords" "cap capacitor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "CP_*"
 			(at 0 0 0)
 			(effects
 				(font

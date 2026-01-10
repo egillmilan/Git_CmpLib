@@ -1,4 +1,4 @@
-(footprint "SOT-23-6"
+(footprint "SOT-25"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT-23-6"
+	(property "Value" "SOT-25"
 		(at 0 2.4 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,8 +53,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.8 -1.56)
-		(end 0.8 -1.56)
+		(start -0.8 -1.61)
+		(end 0.8 -1.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -63,8 +63,8 @@
 		(uuid "a5e0c6d2-0495-437b-b33a-3ef956fd077b")
 	)
 	(fp_line
-		(start 0.8 1.56)
-		(end -0.8 1.56)
+		(start 0.8 1.61)
+		(end -0.8 1.61)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -74,7 +74,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.1375 -1.4) (xy -1.3775 -1.73) (xy -0.8975 -1.73)
+			(xy -1.2 -1.4) (xy -1.44 -1.73) (xy -0.96 -1.73)
 		)
 		(stroke
 			(width 0.12)
@@ -82,10 +82,10 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ccb006cb-2915-46a7-ad16-618c09271651")
+		(uuid "412dec70-01cc-4510-aad6-b969a3d1cc74")
 	)
 	(fp_line
-		(start -2.05 -1.5)
+		(start -1.75 -1.5)
 		(end -1.05 -1.5)
 		(stroke
 			(width 0.05)
@@ -95,8 +95,8 @@
 		(uuid "bf32835f-727b-4b85-a295-994b71726495")
 	)
 	(fp_line
-		(start -2.05 1.5)
-		(end -2.05 -1.5)
+		(start -1.75 1.5)
+		(end -1.75 -1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -126,7 +126,7 @@
 	)
 	(fp_line
 		(start -1.05 1.5)
-		(end -2.05 1.5)
+		(end -1.75 1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -156,7 +156,7 @@
 	)
 	(fp_line
 		(start 1.05 -1.5)
-		(end 2.05 -1.5)
+		(end 1.75 -1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -185,8 +185,8 @@
 		(uuid "a085de4d-8b23-4b0f-842b-2dd437fad49d")
 	)
 	(fp_line
-		(start 2.05 -1.5)
-		(end 2.05 1.5)
+		(start 1.75 -1.5)
+		(end 1.75 1.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -195,7 +195,7 @@
 		(uuid "cb9bd1fb-ad5d-413e-b403-e5fe63c04177")
 	)
 	(fp_line
-		(start 2.05 1.5)
+		(start 1.75 1.5)
 		(end 1.05 1.5)
 		(stroke
 			(width 0.05)
@@ -206,7 +206,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -0.8 -1.05) (xy -0.8 1.45) (xy 0.8 1.45) (xy 0.8 -1.45) (xy -0.4 -1.45)
+			(xy -0.8 -1.1) (xy -0.8 1.5) (xy 0.8 1.5) (xy 0.8 -1.5) (xy -0.4 -1.5)
 		)
 		(stroke
 			(width 0.1)
@@ -217,55 +217,47 @@
 		(uuid "81ae7670-16e0-4fba-81fc-4fff03681b47")
 	)
 	(pad "1" smd roundrect
-		(at -1.1375 -0.95)
-		(size 1.325 0.6)
+		(at -1.2 -0.95)
+		(size 0.8 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.07)
 		(uuid "27ba8113-c62e-4959-9c4d-facd22629c23")
 	)
 	(pad "2" smd roundrect
-		(at -1.1375 0)
-		(size 1.325 0.6)
+		(at -1.2 0)
+		(size 0.8 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.07)
 		(uuid "64153c64-594a-4b55-b015-b0eded5fadc2")
 	)
 	(pad "3" smd roundrect
-		(at -1.1375 0.95)
-		(size 1.325 0.6)
+		(at -1.2 0.95)
+		(size 0.8 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.07)
 		(uuid "5a35d897-50b6-4068-b77a-8d67762523f9")
 	)
 	(pad "4" smd roundrect
-		(at 1.1375 0.95)
-		(size 1.325 0.6)
+		(at 1.2 0.95)
+		(size 0.8 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.07)
 		(uuid "68fc0704-09d8-4d70-a501-a0cc140b9742")
 	)
 	(pad "5" smd roundrect
-		(at 1.1375 0)
-		(size 1.325 0.6)
+		(at 1.2 -0.95)
+		(size 0.8 0.55)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.07)
 		(uuid "9f687cb5-e3b2-4521-bb5d-6d3fd37a8390")
 	)
-	(pad "6" smd roundrect
-		(at 1.1375 -0.95)
-		(size 1.325 0.6)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
-		(uuid "42f71a8f-bddc-4eff-839a-fc516b671321")
-	)
 	(embedded_fonts no)
-	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/SOT-23-6.step"
+	(model "${KICAD_USER_CMPLIB}/Git_CmpLib/3D_models/SC-74A-5_1.55x2.9mm_P0.95mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
