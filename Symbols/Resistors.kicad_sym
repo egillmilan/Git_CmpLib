@@ -348,6 +348,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-0R-Jumper-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -467,6 +476,15 @@
 			)
 		)
 		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -602,6 +620,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-1k5-0.5%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -721,6 +748,15 @@
 			)
 		)
 		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -856,6 +892,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-22k-0.5%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -975,6 +1020,15 @@
 			)
 		)
 		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1110,6 +1164,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-33k-0.5%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -1229,6 +1292,15 @@
 			)
 		)
 		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1364,6 +1436,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-3k-0.5%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -1483,6 +1564,15 @@
 			)
 		)
 		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1618,6 +1708,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-47k-1%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -1737,6 +1836,15 @@
 			)
 		)
 		(property "ki_keywords" "R resistor"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1872,6 +1980,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-5k1-1%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -1999,6 +2116,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-5k6-0.5%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -2013,133 +2139,6 @@
 			)
 		)
 		(symbol "R0805-5k6-0.5%-0.125W-SMD_1_1"
-			(pin passive line
-				(at 0 2.54 270)
-				(length 0.762)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 90)
-				(length 0.762)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "R0805-750R-0.5%-0.125W-SMD"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0.254)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 1.27 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "750"
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistors:R_0805_2012Metric"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size Code" "0805"
-			(at 1.27 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "ki_keywords" "R resistor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "R0805-750R-0.5%-0.125W-SMD_0_1"
-			(rectangle
-				(start -0.762 1.778)
-				(end 0.762 -1.778)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R0805-750R-0.5%-0.125W-SMD_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 0.762)
@@ -2253,6 +2252,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R0805-8k25-0.5%-0.125W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -2267,151 +2275,6 @@
 			)
 		)
 		(symbol "R0805-8k25-0.5%-0.125W-SMD_1_1"
-			(pin passive line
-				(at 0 2.54 270)
-				(length 0.762)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 90)
-				(length 0.762)
-				(name "~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "R0830-0R01-2%-2W-SMD"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0.254)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 1.27 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0R01"
-			(at 1.27 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistors:R_0830_2075Metric"
-			(at 0 -15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.susumu.co.jp/common/pdf/n_catalog_partition07_en.pdf"
-			(at 0 -20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 mOhms ±2% 2W Chip Resistor Wide 3008 (2075 Metric), 0830 Current Sense Thin Film"
-			(at 0 -17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Size Code" "0830"
-			(at 1.27 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Manufacturer" "Susumu"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part Number" "RL7520WT-R010-G"
-			(at 0 -12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "R resistor"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "R0830-0R01-2%-2W-SMD_0_1"
-			(rectangle
-				(start -0.762 1.778)
-				(end 0.762 -1.778)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "R0830-0R01-2%-2W-SMD_1_1"
 			(pin passive line
 				(at 0 2.54 270)
 				(length 0.762)
@@ -2525,6 +2388,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "R1206-10R-0.1%-0.250W-SMD_0_1"
 			(rectangle
 				(start -0.762 1.778)
@@ -2630,6 +2502,15 @@
 			)
 		)
 		(property "ki_keywords" "Potentiometer 10kohm linear"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Potentiometer*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3091,7 +2972,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 0 -7.62 0)
+			(at 0 -8.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,8 +2980,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistors:R_NTC_H0.35mm_P1.50mm"
-			(at 0 -17.78 0)
+		(property "Footprint" ""
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-nrse-epoxy-sealed-radial-lead-ntc-thermistor-data-sheet-elx1227.pdf"
-			(at 0 -20.32 0)
+			(at 0 -15.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +2999,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
-			(at 0 -10.16 0)
+			(at 0 -10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,8 +3007,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. Part Number" "NRSE104F3380B1F"
-			(at 0 -15.24 0)
+		(property "Manufacturer part number" "NRSE104F3380B1F"
+			(at 0 -13.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,8 +3025,8 @@
 				(justify left)
 			)
 		)
-		(property "Manufacturer" "Eaton"
-			(at 0 -12.7 0)
+		(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3034,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+		(property "ki_fp_filters" "*NTC* *Thermistor* PIN?ARRAY* bornier* *Terminal?Block* R_*"
 			(at 0 0 0)
 			(effects
 				(font
