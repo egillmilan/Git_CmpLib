@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, https://www.ti.com/lit/ds/symlink/tusb319-q1.pdf")
 	(property "Reference" "REF**"
-		(at 0 -2.1 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
 		(uuid "c59b2ad1-94bf-4107-bfb6-e116d9f1ac6a")
 		(effects
@@ -75,17 +75,16 @@
 		(layer "F.SilkS")
 		(uuid "129e4c6c-737d-4bd1-8faa-42e908ec7548")
 	)
-	(fp_poly
-		(pts
-			(xy -0.975 -1.1) (xy -1.215 -1.43) (xy -0.735 -1.43)
-		)
+	(fp_circle
+		(center -0.975 -1.14)
+		(end -0.825 -1.14)
 		(stroke
-			(width 0.12)
+			(width 0)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "1b37ead0-2e62-4b19-9e1d-fa1d8388c73d")
+		(uuid "b5421f9a-e034-4985-a682-ade3d4c3ccf1")
 	)
 	(fp_rect
 		(start -0.125 -0.85)

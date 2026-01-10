@@ -81,6 +81,15 @@
 				(hide yes)
 			)
 		)
+		(property "ki_fp_filters" "USB*C*Receptacle*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "J-Molex_USB_C_2.0-Female-SMD-6p_0_0"
 			(rectangle
 				(start -0.254 -12.7)
@@ -8520,6 +8529,15 @@
 		)
 		(property "Mfr. Part Number" "2604-1104"
 			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "BT"
-			(at 2.54 1.27 0)
+			(at 2.54 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,16 +23,17 @@
 			)
 		)
 		(property "Value" "18650_cell"
-			(at 0 -12.7 0)
+			(at 2.54 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Batteries:BT-3.7V-lithium_ion-18650"
-			(at 0 -15.24 0)
+		(property "Footprint" ""
+			(at 0 1.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +51,7 @@
 			)
 		)
 		(property "Description" "Single-cell 18650 lithium-ion battery"
-			(at 0 -10.16 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,8 +70,8 @@
 		)
 		(symbol "BT-3.7V-lithium_ion-18650_0_1"
 			(rectangle
-				(start -2.286 0.508)
-				(end 2.286 0.254)
+				(start -2.286 1.778)
+				(end 2.286 1.524)
 				(stroke
 					(width 0)
 					(type default)
@@ -80,8 +81,8 @@
 				)
 			)
 			(rectangle
-				(start -1.524 -0.254)
-				(end 1.524 -0.762)
+				(start -1.524 1.016)
+				(end 1.524 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -92,7 +93,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0.508) (xy 0 1.27)
+					(xy 0 1.778) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -104,7 +105,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -0.508) (xy 0 -1.27)
+					(xy 0 0.762) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -116,7 +117,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 1.778) (xy 1.778 1.778)
+					(xy 0.762 3.048) (xy 1.778 3.048)
 				)
 				(stroke
 					(width 0.254)
@@ -128,7 +129,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 2.286) (xy 1.27 1.27)
+					(xy 1.27 3.556) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -140,9 +141,9 @@
 			)
 		)
 		(symbol "BT-3.7V-lithium_ion-18650_1_1"
-			(pin no_connect line
-				(at 0 2.54 270)
-				(length 1.27)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -150,7 +151,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -158,9 +159,9 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin passive line
 				(at 0 -2.54 90)
-				(length 1.27)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -168,7 +169,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 1.27 1.27)
