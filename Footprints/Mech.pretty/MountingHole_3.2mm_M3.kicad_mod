@@ -80,9 +80,9 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 6 6)
+		(size 3.2 3.2)
 		(drill 3.2)
-		(layers "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "804ff500-162b-4cce-94ca-394231c2a810")
 	)
 	(embedded_fonts no)

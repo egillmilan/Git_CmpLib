@@ -50,7 +50,6 @@
 			)
 		)
 	)
-	(solder_mask_margin 0.07)
 	(attr through_hole)
 	(fp_line
 		(start -3.6 9.000002)
