@@ -2,7 +2,11 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
+<<<<<<< Updated upstream
 	(symbol "F-PTC_Resettable-9V-250mA-SMD"
+=======
+	(symbol "F-Fast-Blow-125V-2A-SMD"
+>>>>>>> Stashed changes
 		(pin_numbers
 			(hide yes)
 		)
@@ -14,23 +18,37 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
+<<<<<<< Updated upstream
 			(at 0 5.08 0)
+=======
+			(at 0 1.524 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "250 mA"
 			(at 0 2.54 0)
+=======
+		(property "Value" "2 A"
+			(at 0 -1.778 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Fuses:Fuse_YAGEO_0603_H1mm"
 			(at 0 -10.16 0)
+=======
+		(property "Footprint" "Fuses:Fuse_holder_OMNI-BLOK"
+			(at 0 -6.858 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,8 +56,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "https://www.yageogroup.com/content/Resource%20Library/Datasheet/SMD0603_1.pdf"
 			(at 0 -12.7 0)
+=======
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-fuse-154-series-data-sheet?assetguid=a8a8a462-7295-481b-a91b-d770dabf005b"
+			(at 0 -9.398 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,6 +70,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "250 mA 9 V PTC resettable fuse"
 			(at 0 -7.62 0)
 			(effects
@@ -66,6 +90,9 @@
 			)
 		)
 		(property "Mfr. Part Number" "SMD0603B025TF"
+=======
+		(property "Description" "2A 125V fuse"
+>>>>>>> Stashed changes
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -74,6 +101,27 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
+=======
+		(property "Manufacturer" "Littlefuse Inc."
+			(at 0 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "0154002.DRL"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+>>>>>>> Stashed changes
 		(property "ki_keywords" "fuse"
 			(at 0 0 0)
 			(effects
@@ -83,6 +131,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_fp_filters" "*Fuse*"
 			(at 0 0 0)
 			(effects
@@ -93,6 +142,9 @@
 			)
 		)
 		(symbol "F-PTC_Resettable-9V-250mA-SMD_0_1"
+=======
+		(symbol "F-Fast-Blow-125V-2A-SMD_0_1"
+>>>>>>> Stashed changes
 			(rectangle
 				(start -1.27 0.508)
 				(end 1.27 -0.508)
@@ -117,7 +169,11 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(symbol "F-PTC_Resettable-9V-250mA-SMD_1_1"
+=======
+		(symbol "F-Fast-Blow-125V-2A-SMD_1_1"
+>>>>>>> Stashed changes
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
@@ -157,7 +213,11 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< Updated upstream
 	(symbol "F-Slo-Blo-60V-1A-SMD"
+=======
+	(symbol "F-Slo-Blo-60V-1V-SMD"
+>>>>>>> Stashed changes
 		(pin_numbers
 			(hide yes)
 		)
@@ -220,6 +280,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_fp_filters" "*Fuse*"
 			(at 0 0 0)
 			(effects
@@ -230,6 +291,9 @@
 			)
 		)
 		(symbol "F-Slo-Blo-60V-1A-SMD_0_1"
+=======
+		(symbol "F-Slo-Blo-60V-1V-SMD_0_1"
+>>>>>>> Stashed changes
 			(rectangle
 				(start -1.27 0.508)
 				(end 1.27 -0.508)

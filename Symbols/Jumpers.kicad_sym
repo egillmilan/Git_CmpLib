@@ -66,15 +66,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SolderJumper*Bridged*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "JP-2_Bridged-RoundedPad1.0x1.5mm-Solder_0_1"
 			(rectangle
 				(start -0.508 0.508)
@@ -264,15 +255,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SolderJumper*Open*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "JP-2_Open-RoundedPad1.0x1.5mm-Solder_0_1"
 			(polyline
 				(pts
@@ -440,15 +422,6 @@
 			)
 		)
 		(property "ki_keywords" "Solder Jumper SPDT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SolderJumper*Bridged12*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -700,15 +673,6 @@
 			)
 		)
 		(property "ki_keywords" "Solder Jumper SPDT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SolderJumper*Bridged123*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -971,15 +935,6 @@
 			)
 		)
 		(property "ki_keywords" "Solder Jumper SPDT"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "SolderJumper*Open*"
 			(at 0 0 0)
 			(effects
 				(font

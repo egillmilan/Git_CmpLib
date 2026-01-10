@@ -60,15 +60,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "U-555timer-ICM7555ITV-TO-99-8-THM_0_0"
 			(pin power_in line
 				(at 0 10.16 270)
@@ -245,7 +236,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MP2672AGD-0000"
+		(property "Value" "MP2672A"
 			(at -7.62 26.035 0)
 			(effects
 				(font
@@ -274,6 +265,24 @@
 		)
 		(property "Description" "2-cell 2 A boost charger for Lithium Ion batteries"
 			(at 0 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Monolithic Power Systems Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "MP2672AGD-0000-Z"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,29 +630,53 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< Updated upstream
 	(symbol "U-GPIO_Expander-PI4IOE5V96248ZLEX-56_WFQFN_EP-SMD"
+=======
+	(symbol "U-Comparator-MCP6541UT-SC-70-5-SMD"
+>>>>>>> Stashed changes
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
+<<<<<<< Updated upstream
 			(at -8.89 59.69 0)
+=======
+			(at 2.54 7.62 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 			)
 		)
 		(property "Value" "PI4IOE5V96248"
 			(at 10.16 59.69 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6541"
+			(at 2.54 5.08 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify right)
 			)
 		)
 		(property "Footprint" "Integrated_Circuits:QFN-56-1EP_7x7mm_P0.4mm_EP4.6x4.6mm"
 			(at 0 -86.36 0)
+=======
+				(justify left)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:SOT-353_SC-70-5"
+			(at 0 -25.4 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -651,8 +684,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/PI4IOE5V96248.pdf"
 			(at 0 -93.98 0)
+=======
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6541%20Output%20SubMicroamp%20Comparators%2020001696K.pdf"
+			(at 0 -27.94 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -660,8 +698,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "I/O Expander 48 I2C 1 MHz 56-TQFN (7x7)"
 			(at 0 -96.52 0)
+=======
+		(property "Description" "Comparator Standard (General Purpose) CMOS, Push-Pull, Rail-to-Rail, TTL SC-70-5"
+			(at 0 -22.86 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -669,8 +712,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 -91.44 0)
+=======
+		(property "Manufacturer" "Microchip Technology"
+			(at 0 -17.78 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -678,8 +726,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Mfr. Part Number" "PI4IOE5V96248ZLEX"
 			(at 0 -88.9 0)
+=======
+		(property "Mfr. Part Number" "MCP6541UT-I/LT"
+			(at 0 -20.32 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -687,6 +740,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_keywords" "I2C TWI IO expander"
 			(at 0 0 0)
 			(effects
@@ -709,6 +763,13 @@
 			(rectangle
 				(start -10.16 58.42)
 				(end 10.16 -78.74)
+=======
+		(symbol "U-Comparator-MCP6541UT-SC-70-5-SMD_0_1"
+			(polyline
+				(pts
+					(xy -3.81 5.08) (xy 7.62 0) (xy -3.81 -5.08) (xy -3.81 5.08)
+				)
+>>>>>>> Stashed changes
 				(stroke
 					(width 0.254)
 					(type default)
@@ -717,6 +778,7 @@
 					(type background)
 				)
 			)
+<<<<<<< Updated upstream
 		)
 		(symbol "U-GPIO_Expander-PI4IOE5V96248ZLEX-56_WFQFN_EP-SMD_1_1"
 			(pin power_in line
@@ -993,6 +1055,62 @@
 				(at 12.7 40.64 180)
 				(length 2.54)
 				(name "IO0_6"
+=======
+			(polyline
+				(pts
+					(xy 2.032 0.762) (xy 1.524 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -0.762) (xy 1.016 -0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 0.762) (xy 2.032 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "U-Comparator-MCP6541UT-SC-70-5-SMD_1_1"
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "-"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1007,10 +1125,35 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin bidirectional line
 				(at 12.7 38.1 180)
 				(length 2.54)
 				(name "IO0_7"
+=======
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 4.2)
+				(name "V+"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1025,10 +1168,137 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin bidirectional line
 				(at 12.7 33.02 180)
 				(length 2.54)
 				(name "IO1_0"
+=======
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 4.2)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "U-DCDC_buck_regulator-AP63205-TSOT-23-6-SMD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AP63205"
+			(at 12.7 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:TSOT-23-6"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A SOT-23-6 Thin, TSOT-23-6"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc."
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "AP63205WU-7"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U-DCDC_buck_regulator-AP63205-TSOT-23-6-SMD_0_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 12.7 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "U-DCDC_buck_regulator-AP63205-TSOT-23-6-SMD_1_0"
+			(pin input line
+				(at 15.24 10.16 180)
+				(length 2.54)
+				(name "BST"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1043,17 +1313,28 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin bidirectional line
 				(at 12.7 30.48 180)
 				(length 2.54)
 				(name "IO1_1"
+=======
+			(pin input line
+				(at 15.24 -2.54 180)
+				(length 2.54)
+				(name "FB"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(number "7"
+=======
+				(number "1"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1061,17 +1342,30 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin bidirectional line
 				(at 12.7 27.94 180)
 				(length 2.54)
 				(name "IO1_2"
+=======
+		)
+		(symbol "U-DCDC_buck_regulator-AP63205-TSOT-23-6-SMD_1_1"
+			(pin power_in line
+				(at -10.16 10.16 0)
+				(length 2.54)
+				(name "VIN"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(number "8"
+=======
+				(number "3"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1079,17 +1373,28 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin bidirectional line
 				(at 12.7 25.4 180)
 				(length 2.54)
 				(name "IO1_3"
+=======
+			(pin input line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "EN"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(number "9"
+=======
+				(number "2"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1097,17 +1402,28 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin bidirectional line
 				(at 12.7 22.86 180)
 				(length 2.54)
 				(name "IO1_4"
+=======
+			(pin power_in line
+				(at 2.54 -7.62 90)
+				(length 2.54)
+				(name "GND"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(number "10"
+=======
+				(number "4"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1115,16 +1431,24 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin bidirectional line
 				(at 12.7 20.32 180)
 				(length 2.54)
 				(name "IO1_5"
+=======
+			(pin power_out line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "SW"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(number "11"
 					(effects
 						(font
@@ -1738,6 +2062,9 @@
 					)
 				)
 				(number "45"
+=======
+				(number "5"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1800,15 +2127,6 @@
 			)
 		)
 		(property "ki_keywords" "Voltage Regulator 100 mA Positive"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2113,7 +2431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tusb319-q1.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP3331.pdf"
 			(at 0 -27.94 0)
 			(effects
 				(font
@@ -2131,8 +2449,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer part number" "ADP3331ARTZ-REEL7"
-			(at 0 -20.32 0)
+		(property "Manufacturer" "Analog Devices Inc."
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,8 +2458,8 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-			(at 0 0 0)
+		(property "Mfr. Part Number" "ADP3331ARTZ-REEL7"
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,12 +2594,20 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< Updated upstream
 	(symbol "U-MCU-STM32F072CBT6-48LQFP-SMD"
+=======
+	(symbol "U-Loadswitch-AP22814-SOT-25-SMD"
+>>>>>>> Stashed changes
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
+<<<<<<< Updated upstream
 			(at -15.24 39.37 0)
+=======
+			(at -7.62 13.97 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,17 +2615,30 @@
 				(justify left)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "STM32F072CBT6"
 			(at 7.62 39.37 0)
+=======
+		(property "Value" "AP22814B"
+			(at 7.62 13.97 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify left)
 			)
 		)
 		(property "Footprint" "Integrated_Circuits:LQFP-48_7x7mm_P0.5mm"
 			(at 0 -45.72 0)
+=======
+				(justify right)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:SOT-25"
+			(at 0 -25.4 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,8 +2646,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f072cb.pdf"
 			(at 0 -43.18 0)
+=======
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22804_14.pdf"
+			(at 0 -27.94 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2316,8 +2660,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
 			(at 0 -50.8 0)
+=======
+		(property "Description" "Power Switch/Driver 1:1 P-Channel 3A SOT-25"
+			(at 0 -22.86 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2325,8 +2674,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Manufacturer" "STMicroelectronics"
 			(at 0 -53.34 0)
+=======
+		(property "Manufacturer" "Diodes Inc."
+			(at 0 -17.78 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2334,8 +2688,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Mfr. Part Number" "STM32F072CBT6"
 			(at 0 -48.26 0)
+=======
+		(property "Mfr. Part Number" "AP22814BW5-7"
+			(at 0 -20.32 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,6 +2702,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_keywords" "Arm Cortex-M0 STM32F072CBT6"
 			(at 0 0 0)
 			(effects
@@ -2365,6 +2725,12 @@
 			(rectangle
 				(start -15.24 38.1)
 				(end 15.24 -38.1)
+=======
+		(symbol "U-Loadswitch-AP22814-SOT-25-SMD_0_1"
+			(rectangle
+				(start -7.62 12.7)
+				(end 7.62 -5.08)
+>>>>>>> Stashed changes
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2374,6 +2740,7 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(symbol "U-MCU-STM32F072CBT6-48LQFP-SMD_1_1"
 			(pin input line
 				(at -17.78 33.02 0)
@@ -2890,6 +3257,13 @@
 				(at -5.08 40.64 270)
 				(length 2.54)
 				(name "VBAT"
+=======
+		(symbol "U-Loadswitch-AP22814-SOT-25-SMD_1_0"
+			(pin power_out line
+				(at 10.16 10.16 180)
+				(length 2.54)
+				(name "OUT"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2904,17 +3278,66 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin power_in line
 				(at -2.54 40.64 270)
 				(length 2.54)
 				(name "VDD"
+=======
+		)
+		(symbol "U-Loadswitch-AP22814-SOT-25-SMD_1_1"
+			(pin power_in line
+				(at -10.16 10.16 0)
+				(length 2.54)
+				(name "IN"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(number "24"
+=======
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "FLG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "~{EN}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2923,16 +3346,26 @@
 				)
 			)
 			(pin power_in line
+<<<<<<< Updated upstream
 				(at 0 40.64 270)
 				(length 2.54)
 				(name "VDD"
+=======
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
+<<<<<<< Updated upstream
 				(number "48"
+=======
+				(number "2"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2940,6 +3373,7 @@
 					)
 				)
 			)
+<<<<<<< Updated upstream
 			(pin power_in line
 				(at 0 -40.64 90)
 				(length 2.54)
@@ -3445,6 +3879,8 @@
 				(alternate "USART4_DE" bidirectional line)
 				(alternate "USART4_RTS" bidirectional line)
 			)
+=======
+>>>>>>> Stashed changes
 		)
 		(embedded_fonts no)
 	)
@@ -3753,7 +4189,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "U-NMOS-PMV16XNR-8.6A-SOT-23-3-SMD"
+	(symbol "U-NMOS-PMV16XN-8.6A-SOT-23-3-SMD"
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -3770,7 +4206,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMV16XNR"
+		(property "Value" "PMV16XN"
 			(at 5.08 -1.27 0)
 			(effects
 				(font
@@ -3780,7 +4216,7 @@
 			)
 		)
 		(property "Footprint" "Integrated_Circuits:SOT-23"
-			(at 0 -13.97 0)
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +4225,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV16XN.pdf"
-			(at 0 -19.05 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +4234,25 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 0 -16.51 0)
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "PMV16XNR"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,7 +4269,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "U-NMOS-PMV16XNR-8.6A-SOT-23-3-SMD_0_1"
+		(symbol "U-NMOS-PMV16XN-8.6A-SOT-23-3-SMD_0_1"
 			(polyline
 				(pts
 					(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3982,7 +4436,7 @@
 				)
 			)
 		)
-		(symbol "U-NMOS-PMV16XNR-8.6A-SOT-23-3-SMD_1_1"
+		(symbol "U-NMOS-PMV16XN-8.6A-SOT-23-3-SMD_1_1"
 			(pin input line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -4040,7 +4494,804 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< Updated upstream
 	(symbol "U-USBC_Controller-TUSB319_Q1-8WFDFN_EP-SMD"
+=======
+	(symbol "U-Opamp-MCP6421-SC-70-5-SMD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP6421"
+			(at 2.54 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:SOT-353_SC-70-5"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20005165B.pdf"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard (General Purpose) Amplifier 1 Circuit Rail-to-Rail SC-70-5"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "MCP6421T-E/LTY"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U-Opamp-MCP6421-SC-70-5-SMD_0_1"
+			(polyline
+				(pts
+					(xy -3.81 5.08) (xy 7.62 0) (xy -3.81 -5.08) (xy -3.81 5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "U-Opamp-MCP6421-SC-70-5-SMD_1_1"
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 3.81)
+				(name "-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 3.81)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 4.2)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 4.2)
+				(name "V-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "U-Optocoupler-FOD817-4-SMD-SMD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -5.08 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FOD817"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:4-SMD_Gull_Wing_P2.54mm"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fod814-d.pdf"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic DC optocoupler with NPN phototransistor output, pins order: anode/cathode/emitter/collector"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Onsemi"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "FOD817BSD"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NPN DC Optocoupler"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U-Optocoupler-FOD817-4-SMD-SMD_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.635) (xy 4.445 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "U-Optocoupler-FOD817-4-SMD-SMD_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "U-Optocoupler-VOS617A-4SSOP-SMD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -5.08 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VOS617A"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:SSOP-4_4.4x2.6mm_P1.27mm"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/83497/vos617a.pdf"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optoisolator Transistor Output 3750Vrms 1 Channel 4-SSOP"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "VOS617A-7X001T"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NPN DC Optocoupler"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U-Optocoupler-VOS617A-4SSOP-SMD_0_1"
+			(rectangle
+				(start -5.08 3.81)
+				(end 5.08 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54) (xy -2.54 -1.27) (xy -2.54 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 -0.635) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -2.54 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -0.635) (xy -3.175 0.635) (xy -1.905 0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 0.508) (xy 0.762 0.508) (xy 0.381 0.381) (xy 0.381 0.635) (xy 0.762 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -0.508) (xy 0.762 -0.508) (xy 0.381 -0.635) (xy 0.381 -0.381) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 2.54 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0.635) (xy 4.445 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 -1.651) (xy 3.556 -1.143) (xy 4.064 -2.159) (xy 3.048 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 2.54 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "U-Optocoupler-VOS617A-4SSOP-SMD_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "U-USBC_controller-TUSB319_Q1-8WFDFN_EP-SMD"
+>>>>>>> Stashed changes
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4089,8 +5340,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer part number" "TUSB319IDRFRQ1"
-			(at 0 -20.32 0)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,8 +5349,8 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-			(at 0 0 0)
+		(property "Mfr. Part Number" "TUSB319IDRFRQ1"
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4278,6 +5529,286 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "U-Voltage_reference-REF3312AIDCKR-SC-70-3-SMD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -10.16 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "REF3312AIDCKR"
+			(at 10.16 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:SOT-23"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref3312.pdf?ts=1761440510953&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF3312%252Fpart-details%252FREF3312AIDCKR"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Series Voltage Reference IC Fixed 1.25V V ±0.15% 30 mA SC-70-3"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "REF3312AIDCKR"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U-Voltage_reference-REF3312AIDCKR-SC-70-3-SMD_0_1"
+			(rectangle
+				(start -10.16 2.54)
+				(end 10.16 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "U-Voltage_reference-REF3312AIDCKR-SC-70-3-SMD_1_0"
+			(pin output line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "U-Voltage_reference-REF3312AIDCKR-SC-70-3-SMD_1_1"
+			(pin power_in line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "U-Voltage_reference-TS3333ACR-SOT-323-SMD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS3333ACR"
+			(at 7.62 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Integrated_Circuits:SOT-323_SC-70"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/18/47/2d/09/81/6d/49/82/DM00359967/files/DM00359967.pdf/jcr:content/translations/en.DM00359967.pdf"
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Series Voltage Reference IC Fixed 3.3V V ±0.15% 5 mA SOT-323-3"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "TS3333ACR"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "U-Voltage_reference-TS3333ACR-SOT-323-SMD_0_1"
+			(rectangle
+				(start -7.62 2.54)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "U-Voltage_reference-TS3333ACR-SOT-323-SMD_1_0"
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "U-Voltage_reference-TS3333ACR-SOT-323-SMD_1_1"
+			(pin power_in line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)

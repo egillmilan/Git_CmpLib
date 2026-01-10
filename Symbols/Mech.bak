@@ -189,7 +189,7 @@
 			)
 		)
 		(property "Value" "254"
-			(at 0 -5.08 0)
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -198,7 +198,7 @@
 			)
 		)
 		(property "Footprint" "Mech:Keystone_254_holder"
-			(at 0 -10.16 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +216,25 @@
 			)
 		)
 		(property "Description" "Surface mounted holder for 18650 size li-ion cell"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Keystone"
 			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "254"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,24 +252,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at 0 2.54 270)
-				(length 1.27)
-				(name ""
-					(effects
-						(font
-							(size 0.5 0.5)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -346,6 +346,7 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< Updated upstream
 	(symbol "Reverse_Standoff-6.6mm-M3-SMD"
 		(pin_numbers
 			(hide yes)
@@ -681,6 +682,8 @@
 		)
 		(embedded_fonts no)
 	)
+=======
+>>>>>>> Stashed changes
 	(symbol "TP-1.0mm-THM"
 		(pin_numbers
 			(hide yes)
@@ -709,7 +712,11 @@
 			)
 		)
 		(property "Footprint" "Mech:TP-1.0mm-THM"
+<<<<<<< Updated upstream
 			(at 0 -5.08 0)
+=======
+			(at 0 -12.7 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,6 +724,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Datasheet" "~"
 			(at 0 -7.62 0)
 			(effects
@@ -727,6 +735,9 @@
 			)
 		)
 		(property "Description" "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm"
+=======
+		(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p56.pdf"
+>>>>>>> Stashed changes
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -735,8 +746,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_keywords" "test point wire loop bead"
 			(at 0 0 0)
+=======
+		(property "Description" "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm"
+			(at 0 -15.24 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +760,29 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_fp_filters" "Pin* Test*"
+=======
+		(property "Manufacturer" "Keystone"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "5001"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "test point wire loop bead"
+>>>>>>> Stashed changes
 			(at 0 0 0)
 			(effects
 				(font

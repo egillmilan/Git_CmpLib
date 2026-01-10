@@ -67,15 +67,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(symbol "D-Schottky-390mV-1A-15V-SMB-SMD_0_1"
 			(polyline
 				(pts
@@ -154,31 +145,49 @@
 		)
 		(embedded_fonts no)
 	)
+<<<<<<< Updated upstream
 	(symbol "D-TVS-0402-6V-SMD"
+=======
+	(symbol "D-Zener-1.1V-200mA-2.4V-SOD-323-SMD"
+>>>>>>> Stashed changes
 		(pin_numbers
 			(hide yes)
 		)
 		(pin_names
+<<<<<<< Updated upstream
 			(offset 1.016)
+=======
+			(offset 0.254)
+>>>>>>> Stashed changes
 			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
+<<<<<<< Updated upstream
 			(at 0 2.54 0)
+=======
+			(at 0 2.286 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "D-TVS-0402-6V-SMD"
 			(at 0 -2.54 0)
+=======
+		(property "Value" "2.4 V"
+			(at 0 -2.286 0)
+>>>>>>> Stashed changes
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(hide yes)
 			)
 		)
@@ -201,6 +210,11 @@
 			)
 		)
 		(property "Description" "TVS DIODE 6VWM 20VC 0402"
+=======
+			)
+		)
+		(property "Footprint" "Diodes:D_SOD-323"
+>>>>>>> Stashed changes
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -209,7 +223,11 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Manufacturer" "INPAQ Technology"
+=======
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf"
+>>>>>>> Stashed changes
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -218,7 +236,20 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Mfr. Part Number" "TFE10402V06B0DG"
+=======
+		(property "Description" "Zener diode, small symbol, filled shape"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+>>>>>>> Stashed changes
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -227,7 +258,20 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_keywords" "diode TVS thyrector"
+=======
+		(property "Mfr. Part Number" "PDZ2.4B,115"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+>>>>>>> Stashed changes
 			(at 0 0 0)
 			(effects
 				(font
@@ -236,6 +280,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 			(at 0 0 0)
 			(effects
@@ -249,6 +294,36 @@
 			(polyline
 				(pts
 					(xy -1.27 0) (xy 1.27 0)
+=======
+		(symbol "D-Zener-1.1V-200mA-2.4V-SOD-323-SMD_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy -0.762 -0.762) (xy -0.762 0.762) (xy -0.254 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.016) (xy -0.762 0) (xy 0.762 -1.016) (xy 0.762 1.016)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0) (xy -0.762 0)
+>>>>>>> Stashed changes
 				)
 				(stroke
 					(width 0)
@@ -258,6 +333,7 @@
 					(type none)
 				)
 			)
+<<<<<<< Updated upstream
 			(polyline
 				(pts
 					(xy 0.508 1.016) (xy 0 1.016) (xy 0 -1.016) (xy -0.508 -1.016)
@@ -300,6 +376,14 @@
 				(at -2.54 0 0)
 				(length 1.27)
 				(name "A1"
+=======
+		)
+		(symbol "D-Zener-1.1V-200mA-2.4V-SOD-323-SMD_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.778)
+				(name "K"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -316,8 +400,13 @@
 			)
 			(pin passive line
 				(at 2.54 0 180)
+<<<<<<< Updated upstream
 				(length 1.27)
 				(name "A2"
+=======
+				(length 1.778)
+				(name "A"
+>>>>>>> Stashed changes
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -399,7 +488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size code" "0805"
+		(property "Size Code" "0805"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -408,15 +497,6 @@
 			)
 		)
 		(property "ki_keywords" "LED light-emitting-diode"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -591,7 +671,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size code" "1206"
+		(property "Size Code" "1206"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -600,15 +680,6 @@
 			)
 		)
 		(property "ki_keywords" "LED light-emitting-diode "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -783,7 +854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size code" "1206"
+		(property "Size Code" "1206"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -792,15 +863,6 @@
 			)
 		)
 		(property "ki_keywords" "LED light-emitting-diode "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -975,7 +1037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size code" "1206"
+		(property "Size Code" "1206"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -984,15 +1046,6 @@
 			)
 		)
 		(property "ki_keywords" "LED light-emitting-diode "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1167,7 +1220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size code" "1206"
+		(property "Size Code" "1206"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1176,15 +1229,6 @@
 			)
 		)
 		(property "ki_keywords" "LED light-emitting-diode "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1359,7 +1403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Size code" "1206"
+		(property "Size Code" "1206"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -1368,15 +1412,6 @@
 			)
 		)
 		(property "ki_keywords" "LED light-emitting-diode "
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
 			(at 0 0 0)
 			(effects
 				(font

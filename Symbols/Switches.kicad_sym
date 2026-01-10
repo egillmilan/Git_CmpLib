@@ -290,8 +290,8 @@
 				)
 			)
 		)
-		(property "Value" "1201A2CQEA"
-			(at 0 -10.16 0)
+		(property "Value" "DPDT"
+			(at 0 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +300,7 @@
 			)
 		)
 		(property "Footprint" "Switches:SW_Slide_DPDT_1201A2CQEA"
-			(at 0 -17.78 0)
+			(at 0 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -309,7 +309,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7206/1101A4CGEA.pdf"
-			(at 0 -15.24 0)
+			(at 0 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +318,25 @@
 			)
 		)
 		(property "Description" "Slide Switch, dual pole double throw"
-			(at 0 -12.7 0)
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CIT"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part Number" "1201A2CQEA"
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
